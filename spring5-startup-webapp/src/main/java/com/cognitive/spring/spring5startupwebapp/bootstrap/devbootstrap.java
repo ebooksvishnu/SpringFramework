@@ -35,8 +35,8 @@ public class devbootstrap implements ApplicationListener<ContextRefreshedEvent>
         eric.getBooks().add(ericBook);
         ericBook.getAuthors().add(eric);
 
-        authorRepository.Save(eric);
-        bookRepository.Save(ericBook);
+        authorRepository.save(eric);
+        bookRepository.save(ericBook);
 
         //Dan Bobs
         Author bob = new Author("Dan", "Bob",null);
@@ -44,8 +44,8 @@ public class devbootstrap implements ApplicationListener<ContextRefreshedEvent>
         bob.getBooks().add(bobbook);
         bobbook.getAuthors().add(bob);
 
-        authorRepository.Save(bob);
-        bookRepository.Save(bobbook);
+        authorRepository.save(bob);
+        bookRepository.save(bobbook);
 
     }
 }
