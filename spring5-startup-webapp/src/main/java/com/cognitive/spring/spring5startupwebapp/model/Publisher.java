@@ -26,6 +26,7 @@ public class Publisher {
         return name;
     }
 
+    private Publisher(){}
 
     public Publisher(String name, String address) {
         this.name = name;

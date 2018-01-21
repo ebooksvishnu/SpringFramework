@@ -69,6 +69,9 @@ public class Book {
         this.isbn = isbn;
     }*/
 
+    //Default needed for using in MVC
+    private Book(){}
+
     public Book(String title, String isbn, Publisher publisher) {
         this.title = title;
         this.isbn = isbn;
